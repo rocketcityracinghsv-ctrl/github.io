@@ -353,33 +353,21 @@ a {
     font-size: 1.05rem;
 }
 
-.food-specials {
-    background: white;
+.das-stahl-logo {
+    text-align: center;
+    margin: 2.5rem 0;
     padding: 2rem;
+    background: white;
     border-radius: 10px;
-    margin: 2rem 0;
-    border-left: 4px solid var(--primary-red);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
 }
 
-.food-specials h3 {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    color: var(--primary-red);
-}
-
-.food-specials ul {
-    list-style: none;
-    padding: 0;
-}
-
-.food-specials li {
-    padding: 0.75rem 0;
-    border-bottom: 1px solid #eee;
-    font-size: 1.05rem;
-}
-
-.food-specials li:last-child {
-    border-bottom: none;
+.das-stahl-logo img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .venue-links {
