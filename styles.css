@@ -172,34 +172,10 @@ a {
    HERO SECTION
    ================================ */
 .hero {
-    background: linear-gradient(135deg, var(--dark-bg) 0%, #1a1a1a 100%);
+    background: var(--dark-bg);
     color: var(--text-light);
     padding: 8rem 0 6rem;
     text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: 
-        repeating-linear-gradient(
-            45deg,
-            transparent,
-            transparent 10px,
-            rgba(196, 30, 58, 0.03) 10px,
-            rgba(196, 30, 58, 0.03) 20px
-        );
-}
-
-.hero .container {
-    position: relative;
-    z-index: 1;
 }
 
 .hero-logo {
